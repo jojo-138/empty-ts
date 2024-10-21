@@ -30,10 +30,13 @@ function _twentyTwentyColor( backgroundColor, accentHue ) {
  * depending on dark/light background-color.
  *
  * @since Twenty Twenty 1.0
+ * 
+ * @param {string} x - The x color.
+ * 
  *
  * @return {Object} - this
  */
-_twentyTwentyColor.prototype.setAccentColorsArray = function() {
+_twentyTwentyColor.prototype.setAccentColorsArray = function(x) {
 	var self = this,
 		minSaturation = 65,
 		maxSaturation = 100,
