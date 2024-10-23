@@ -36,7 +36,7 @@ function _twentyTwentyColor( backgroundColor, accentHue ) {
  *
  * @return {Object} - this
  */
-_twentyTwentyColor.prototype.setAccentColorsArray = function(x) {
+_twentyTwentyColor.prototype.setAccentColorsArrayyy = function(x) {
 	var self = this,
 		minSaturation = 65,
 		maxSaturation = 100,
