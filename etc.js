@@ -157,5 +157,3 @@ function twentyTwentyColor( backgroundColor, accentHue ) {// jshint ignore:line
 	color.setAccentColorsArray();
 	return color;
 }
-
-// test
